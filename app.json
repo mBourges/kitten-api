@@ -11,8 +11,8 @@
     "postdeploy": "echo 'restarting'"
   },
   "addons": [
-    "cloudamqp",
-    "papertrail"
+    "cloudamqp:lemur",
+    "papertrail:Choklad"
   ],
   "env": {
   }
