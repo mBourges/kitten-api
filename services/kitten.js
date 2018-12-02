@@ -23,6 +23,8 @@ function start(id) {
   }
 
   async function onRequest(data, reply) {
+    console.log('Message received!');
+
     const kittenResponse = await fetch('https://api.thecatapi.com/v1/images/search');
     const kittenJson = await kittenResponse.json();
     const kittenUrl = kittenJson[0].url
