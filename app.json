@@ -1,0 +1,19 @@
+{
+  "name": "gimme-kitten",
+  "description": "Production architectural ideas",
+  "keywords": [
+    "node",
+    "express",
+    "production",
+    "microservices"
+  ],
+  "scripts": {
+    "postdeploy": "echo 'restarting'"
+  },
+  "addons": [
+    "cloudamqp",
+    "papertrail"
+  ],
+  "env": {
+  }
+}
